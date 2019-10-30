@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shared Task</string>
+    <string name="edit_reminder_title">Update Task</string>
+    <string name="no_reminders">No Reminders Yet</string>
+    <string name="confirm">Save</string>
+    <string name="date">Reminder Date</string>
+    <string name="time">Reminder Time</string>
+    <string name="save_user_alarm">Add User Task</string>
+    <string name="save_user_info">Update Info</string>
+    <string name="my_task">My Task</string>
+    <string name="my_shared_task">My Shared Task</string>
+    <string name="friends">Friends</string>
+    <string name="add_new_friends">Add New Friends</string>
+    <string name="add_own_task">Add Own Task</string>
+    <string name="add_shared_task">Add shared Task</string>
+    <string name="update_info">Update Info</string>
+    <string name="invite_friend">Invite Friend</string>
+    <string name="friends_shared_task">Friends Shared Task</string>
+    <string name="logout">Logout</string>
+    <string name="change_password">Change Password</string>
+
+    <!-- Toasts -->
+    <string name="task_saved_message">Task has been saved</string>
+    <string name="task_updated_message">Task has been updated</string>
+
+    <!-- Notification Bar -->
+    <string name="notify_new_task_message">You have a task needs to complete!</string>
+    <string name="notify_new_task_title">Shared Task</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_resizeimage">resizeimage</string>
+
+
+</resources>

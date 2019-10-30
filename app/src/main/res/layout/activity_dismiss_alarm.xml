@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.example.computergallery.alarm.DismissAlarmActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Shared Task"
+            android:textColor="#3a3a3a"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+        <ImageView
+            android:id="@+id/task_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/task_icon"
+            android:background="@drawable/task_image_background"
+            android:scaleType="fitXY"
+            android:padding="3dp" />
+        <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="Wake Up"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="8.00AM"
+            android:textColor="#818181"
+            android:textSize="30sp"
+            android:typeface="serif"/>
+        <Button
+            android:id="@+id/btn_dismiss"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/dismiss"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

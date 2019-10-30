@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "563808394547",
+    "firebase_url": "https://shared-task.firebaseio.com",
+    "project_id": "shared-task",
+    "storage_bucket": "shared-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563808394547:android:394269257b87aa4b",
+        "android_client_info": {
+          "package_name": "com.example.computergallery.alarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563808394547-simn5ev4bbau5c0kl8ednvs5549hb1dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWVwsy4n3EvpnByG0MReH3JggmqFHa0yQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

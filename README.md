@@ -1,2 +1,2 @@
 # SharedTask
-A task sharing project
+This application mainly for sharing task with friends and family members. 
